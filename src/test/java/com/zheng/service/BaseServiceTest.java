@@ -29,7 +29,7 @@ public class BaseServiceTest {
 
     @Value("${spring.mail.username}")
     private String username;
-    private String to = "736732419@qq.com";
+    private String to = "enter your target email there";
 
     @Autowired
     private JavaMailSender sender;
